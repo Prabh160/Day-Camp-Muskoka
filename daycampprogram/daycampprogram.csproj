@@ -168,8 +168,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CampersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PaymentsController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
+    <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,10 +186,29 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\jquery.yacal.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\close-icon.PNG" />
+    <Content Include="images\create-profile-icon.png" />
+    <Content Include="images\download-icon-white.PNG" />
+    <Content Include="images\download-icon.PNG" />
+    <Content Include="images\logo-black.png" />
+    <Content Include="images\logo-white.png" />
+    <Content Include="images\logo.PNG" />
+    <Content Include="images\logonav.PNG" />
+    <Content Include="images\logout-icon.PNG" />
+    <Content Include="images\logowhite.png" />
+    <Content Include="images\mail-icon-white.PNG" />
+    <Content Include="images\mail-icon.PNG" />
+    <Content Include="images\payment-icon.PNG" />
+    <Content Include="images\profile-icon.PNG" />
+    <Content Include="images\profile.png" />
+    <Content Include="images\register-icon.PNG" />
+    <Content Include="images\report-icon.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -196,6 +219,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery.yacal.js" />
+    <Content Include="Scripts\jquery.yacal.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -211,8 +236,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -234,6 +257,19 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\SignIn.cshtml" />
+    <Content Include="Views\Home\StaffDashboard.cshtml" />
+    <Content Include="Views\Home\signedIn.cshtml" />
+    <Content Include="Views\Payments\Index.cshtml" />
+    <Content Include="Views\Payments\Pay.cshtml" />
+    <Content Include="Views\Campers\Index.cshtml" />
+    <Content Include="Views\Campers\CreateProfile.cshtml" />
+    <Content Include="Views\Campers\SelectedProfile.cshtml" />
+    <Content Include="Views\Registration\Index.cshtml" />
+    <Content Include="Views\Reports\Index.cshtml" />
+    <Content Include="Views\Reports\AuthenticationReports.cshtml" />
+    <Content Include="Views\Reports\Stats.cshtml" />
+    <Content Include="Views\Reports\DailyCamperSheets.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

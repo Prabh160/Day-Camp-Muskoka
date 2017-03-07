@@ -6,27 +6,21 @@ using System.Web.Mvc;
 
 namespace daycampprogram.Controllers
 {
-    public class HomeController : Controller
+    public class CampersController : Controller
     {
+        // GET: Campers
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult SignIn()
+        public ActionResult CreateProfile()
         {
             return View();
         }
-
-        public ActionResult StaffDashboard()
+        public ActionResult SelectedProfile()
         {
             return View();
         }
-
-        public ActionResult signedIn()
-        {
-            return View();
-        }
-
     }
 }
